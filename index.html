@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#fafafa" />
+
+    <title>Dribbble</title>
+
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="apple-touch-icon" href="./assets/img/user.svg" />
+    <link rel="icon" href="./assets/img/user.svg" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/main.css.map" />
+    <link rel="stylesheet" href="/assets/css/animejs.css" />
+    <link rel="stylesheet" href="/assets/css/anime-theme.css" />
+
+</head>
+
+<body>
+    <div class="dribbble">
+        <header class="header">
+            <div class="header_holder">
+                <div class="header_brand">
+                    <img src="assets/img/icon.png" alt="logo">
+                </div>
+                <nav class="header_navi">
+                    <ul class="header_navigation_items">
+                        <li class="header_navigation_item">
+                            <a href="#">Inspiration</a>
+                        </li>
+                        <li class="header_navigation_item">
+                            <a href="#">Find Work</a>
+                        </li>
+                        <li class="header_navigation_item">
+                            <a href="#">Learn Design</a>
+                        </li>
+                        <li class="header_navigation_item">
+                            <a href="#">Go Pro</a>
+                        </li>
+                        <li class="header_navigation_item">
+                            <a href="#">Hire Designers</a>
+                        </li>
+                    </ul>
+                    <nav class="navi">
+                        <ul class="inline_menu">
+                            <li><a href="#">Menu 1</a></li>
+                            <li><a href="#">Menu 2</a></li>
+                            <li><a href="#">Menu 3</a></li>
+                            <li><a href="#">Menu 4</a></li>
+                        </ul>
+                        <div class="more">
+                            <div class="more_toggle">
+                                <span class="fa fa-ellipsis-h"></span>
+                            </div>
+                            <div class="more_navi">
+                                <ul class="unstyled_menu">
+                                    <li><a href="#">Menu 5</a></li>
+                                    <li><a href="#">Menu 6</a></li>
+                                    <li><a href="#">Menu 7</a></li>
+                                    <li><a href="#">Menu 8</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="user">
+                            <img src="/assets/img/user.svg">
+                        </div>
+                    </nav>
+                    <img class="search" src="assets/img/search.png" alt="search">
+                    <div class="header_cta">
+                        <button class="sign_in">Sign in</button>
+                    </div>
+                    <div class="header_cta">
+                        <button>Sign up</button>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="slider">
+                    <div class="slider_holder">
+                        <div class="slider_content">
+                            <h1>Discover the world's top designers & creatives</h1>
+                            <h2>Dribbble is the leading destination to find & showcase creative work and home to the
+                                world's best design professionals.</h2>
+                            <div class="slider_cta">
+                                <button>Sign up</button>
+                            </div>
+                        </div>
+                        <div class="slider_picture">
+                            <img src="/assets/img/image_slider.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <button id="button" aria-describedby="tooltip">Come here</button>
+    <div id="tooltip" role="tooltip">
+    Go away
+      <div id="arrow" data-popper-arrow></div>
+    </div>
+
+    <div class="demo-wrapper">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    <div class="demo-wrapper_2">
+        <div class="square_2"></div>
+        <div class="square_2"></div>
+        <div class="square_2"></div>
+        <div class="square_2"></div>
+        <div class="square_2"></div>
+    </div>
+
+    <div class="filter">
+        <div class="filter_group">
+            <input type="search" name="" id="s" placeholder="Filter by yourself...">
+            <button><span class="buscar"><i class="fa fa-search" aria-hidden="true"></i></span>Search</button>
+        </div>
+        <div class="filter_group filters">
+            <div class="filter_item active cat_all" data-category="cat_all">All</div>
+            <div class="filter_item" data-category="cat_01"></div>
+        </div>
+    </div>
+
+    <div class="grid_list">
+        <div class="grid_content">
+            <div class="grid_items">
+                <div class="grid_item">
+                    <img src="">
+                    <div class="grid_item_content">
+                        <img class="user" src="assets/img/user.svg" alt="work">
+                        <div class="title">Name Surname Nortename</div>
+                        <div class="label_button">
+                            <button class="label">Label</button>
+                        </div>
+                        <div class="like_button">
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                        </div>
+                        <div class="views_button">
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app/anime.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="./app/main.js"></script>
+    <script src="./app/data.js"></script>
+    <script src="https://use.fontawesome.com/c5bd105f91.js"></script>
+
+</body>
+
+</html>

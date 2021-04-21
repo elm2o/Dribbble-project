@@ -1,0 +1,78 @@
+@import "partials/header";
+@import "partials/slider";
+@import "partials/filters";
+@import "partials/grid";
+@import "partials/tooltip";
+@import "partials/anime";
+
+
+$corporatecolor: tomato;
+$maxHolderWidth: 1080px;
+
+html body {
+    min-height: 100vh;
+    margin: auto;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+// * {
+//     border: 1px solid red;
+// }
+
+.cat_01 {
+    border: 1px solid red;
+    border-radius: 5px;
+    padding-top: .25em;
+}
+.cat_02 {
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding-top: .25em;
+}
+.cat_03 {
+    border: 1px solid green;
+    border-radius: 5px;
+    padding-top: .25em;
+}
+.cat_04 {
+    border: 1px solid purple;
+    border-radius: 5px;
+    padding-top: .25em;
+}
+.cat_05 {
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding-top: .25em;
+}
+.cat_06 {
+    border: 1px solid yellow;
+    border-radius: 5px;
+    padding-top: .25em;
+}
+.cat_07 {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: .25em;
+}
+.cat_08 {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-top: .25em;
+}
+.cat_09 {
+    border: 1px solid pink;
+    border-radius: 5px;
+    padding-top: .25em;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.active {
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding: .5em;
+    align-items: center;
+    border-radius: 3px;
+}

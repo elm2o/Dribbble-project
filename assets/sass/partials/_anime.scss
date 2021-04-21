@@ -1,0 +1,33 @@
+.demo-wrapper {
+    display: flex;
+    max-width: 195px;
+    width: 100%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+    .square {
+        display: flex;
+        padding: 1em;
+        background-color: rgb(255, 145, 0);
+        margin-left: 2.5px;
+        margin-right: 2.5px;
+    }
+}
+
+.demo-wrapper_2 {
+    display: flex;
+    max-width: 195px;
+    width: 100%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+    .square_2 {
+        display: flex;
+        padding: 1em;
+        background-color: rgb(255, 145, 0);
+        margin-left: 2.5px;
+        margin-right: 2.5px;
+    }
+}
