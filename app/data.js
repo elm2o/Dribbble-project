@@ -367,31 +367,31 @@ const dataSlider = [
     {
         h1: "Discover the world's top designers & creatives.",
         h2: "Dribbble is the leading destination to find & showcase creative work and home to the world's best design professionals.",
-        picture: "/assets/img/image_slider.png",
+        picture: "assets/img/image_slider.png",
 
     },
     {
         h1: "Discover the world's top designers & creatives.",
         h2: "Dribbble is the leading destination to find & showcase creative work and home to the world's best design professionals.",
-        picture: "/assets/img/image_slider.png",
+        picture: "assets/img/image_slider.png",
 
     },
     {
         h1: "Discover the world's top designers & creatives.",
         h2: "Dribbble is the leading destination to find & showcase creative work and home to the world's best design professionals.",
-        picture: "/assets/img/image_slider.png",
+        picture: "assets/img/image_slider.png",
 
     },
     {
         h1: "Discover the world's top designers & creatives.",
         h2: "Dribbble is the leading destination to find & showcase creative work and home to the world's best design professionals.",
-        picture: "/assets/img/image_slider.png",
+        picture: "assets/img/image_slider.png",
 
     },
     {
         h1: "Discover the world's top designers & creatives.",
         h2: "Dribbble is the leading destination to find & showcase creative work and home to the world's best design professionals.",
-        picture: "/assets/img/image_slider.png",
+        picture: "assets/img/image_slider.png",
 
     },
 
