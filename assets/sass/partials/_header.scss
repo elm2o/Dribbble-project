@@ -44,22 +44,28 @@
             align-items: center; 
 
             button {
-                background-color: #ffffff;
-                color: rgb(0, 0, 0);
+                margin-left: 1em;
+                background-color: rgb(255, 145, 0);
+                color: rgb(255, 255, 255);
                 padding-left: 2em;
                 padding-right: 2em;
                 padding-top: .5em;
                 padding-bottom: .5em;
                 font-size: 14px;
-                border: 1px solid black;
+                border: 1px solid rgb(255, 255, 255);
                 border-radius: 4px;
-                margin-left: 1em;
             }
             .sign_in {
-                background-color: #EAEAEA;
-                color: #000000;
+                background-color: #ffffff;
+                color: rgb(255, 145, 0);
+                padding-left: 2em;
+                padding-right: 2em;
+                padding-top: .5em;
+                padding-bottom: .5em;
                 font-size: 14px;
-                border: 1px solid black;
+                border: 1px solid rgb(255, 145, 0);
+                border-radius: 4px;;
+                font-size: 14px;
                 border-radius: 4px;
                 margin-left: 1em;
             }

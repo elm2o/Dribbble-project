@@ -15,17 +15,19 @@
         
         button {
             width: 100px;
-            border: solid 1px rgb(199, 199, 199);
+            border: solid 1px rgb(255, 145, 0);
             border-radius: 3px;
             margin-top: auto;
             margin-bottom: auto;
-            background-color: rgb(170, 170, 170);
-            color: rgb(255, 255, 255);
+            background-color: rgb(255, 255, 255);
+            color: rgb(255, 145, 0);
             padding-top: .7em;
             padding-bottom: .7em;
         }
         input {
             margin-right: 12px;
+            color: rgb(0, 0, 0);
+            border: 1px solid rgb(255, 145, 0);
         }
     }
     .filters {
@@ -33,7 +35,7 @@
         margin: auto;
         justify-content: space-between;
         width: 100%;
-        background-color: rgb(212, 212, 212);
+        background-color: rgb(255, 145, 0);
         padding-top: .25em;
         padding-bottom: .25em;
         padding-left: .5em;

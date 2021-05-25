@@ -27,7 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #EAEAEA;
+    background-color: rgba(255, 145, 0, 0.2);
 
     .slider_holder {
         width: 100%;
@@ -50,14 +50,14 @@
             line-height: 24px;
         }
         button {
-            background-color: #ffffff;
-            color: rgb(0, 0, 0);
+            background-color: rgb(255, 145, 0);
+            color: rgb(255, 255, 255);
             padding-left: 2em;
             padding-right: 2em;
             padding-top: .5em;
             padding-bottom: .5em;
             font-size: 14px;
-            border: 1px solid black;
+            border: 1px solid rgb(255, 255, 255);
             border-radius: 4px;
         }
         .slider_picture {
